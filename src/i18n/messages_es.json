@@ -8,5 +8,6 @@
     "accept": "Aceptar",
     "unknownCreated_at": "Desconocido",
     "showStoriesWithoutUrl": "Mostrar historias sin URL",
-    "exit": "Salir"
+    "exit": "Salir",
+    "noCommentText": "Sin comentario de texto"
 }

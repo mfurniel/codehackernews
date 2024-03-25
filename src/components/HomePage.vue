@@ -4,7 +4,7 @@
       <div v-if="isLoading && !hits.length">Cargando...</div>
       <ul class="unstyledList" v-else-if="hits.length">
         <li v-for="item in filteredHits" :key="item.objectID">
-          <CardNews :title="item.story_title" :author="item.author" :created_at="item.created_at" :url="item.story_url"
+          <CardNews :title="item.story_title || item.title" :author="item.author" :created_at="item.created_at" :url="item.story_url"
             :tags="item._tags" :text="item.comment_text" />
         </li>
       </ul>

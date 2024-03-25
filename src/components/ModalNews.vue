@@ -8,9 +8,12 @@
             </template>
             <v-card>
                 <v-card-title>
-                    <span class="text-h4">{{ title }}</span>
+                    <span class="text-h4">{{ title || $t('noTitle') }}</span>
                 </v-card-title>
-                <v-card-text class="textNews" v-dompurify-html="text">
+                <v-card-text class="textNews" v-dompurify-html="text" v-if="text">
+                </v-card-text>
+                <v-card-text class="textNews" v-else>
+                    {{ $t('noCommentText') }}
                 </v-card-text>
                 <v-chip-group class="tagsGroup">
                     <v-chip v-for="(tag, i) in tags" :key="i" color="primary" class="ma-2">
