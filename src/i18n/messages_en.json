@@ -1,0 +1,12 @@
+{
+    "no_news_message": "No news to display.",
+    "noTitle": "No Title",
+    "author": "Author",
+    "unknownAuthor": "Unknown",
+    "createdAt": "Created at",
+    "reference": "Story",
+    "accept": "Accept",
+    "unknownCreated_at": "Unknown",
+    "showStoriesWithoutUrl": "Show stories without URL",
+    "exit": "Exit"
+}

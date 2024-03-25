@@ -1,0 +1,12 @@
+{
+    "no_news_message": "No hay noticias para mostrar.",
+    "noTitle": "Sin título",
+    "author": "Autor",
+    "unknownAuthor": "Desconocido",
+    "createdAt": "Creado el",
+    "reference": "Historia",
+    "accept": "Aceptar",
+    "unknownCreated_at": "Desconocido",
+    "showStoriesWithoutUrl": "Mostrar historias sin URL",
+    "exit": "Salir"
+}

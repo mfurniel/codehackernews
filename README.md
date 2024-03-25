@@ -1,24 +1,23 @@
-# codehackernews
+# CODE HACKERS NEWS
 
-## Project setup
-```
-yarn install
-```
+## Requisitos
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+- Git para clonar el repositorio.
+- [Node.js](https://nodejs.org/).
+- [Docker](https://www.docker.com/).
 
-### Compiles and minifies for production
-```
-yarn build
-```
+Puedes crear un contenedor con Docker dependiendo de la opción que prefieras para ejecutar el proyecto.
+Después de clonar el repositorio, realiza una de las siguientes alternativas:
 
-### Lints and fixes files
-```
-yarn lint
-```
+## Ejecución con NPM
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- npm install
+- npm run serve
+- La aplicación estará disponible en http://localhost:8080/.
+
+## Ejecución con Docker
+
+- docker compose up
+
+La aplicación estará disponible en http://localhost:8080/.
+
